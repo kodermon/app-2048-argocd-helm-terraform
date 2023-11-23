@@ -4,8 +4,7 @@ metadata:
   name: app-2048-service
 spec:
   selector:
-    matchLabels:
-      app: app-2048
+    app: app-2048
   ports:
     - protocol: TCP
       port: 80
