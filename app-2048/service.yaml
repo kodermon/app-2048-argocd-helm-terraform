@@ -4,7 +4,8 @@ metadata:
   name: app-2048-service
 spec:
   selector:
-    app.kubernetes.io/name: app-2048
+    matchLabels:
+      app: app-2048
   ports:
     - protocol: TCP
       port: 80
